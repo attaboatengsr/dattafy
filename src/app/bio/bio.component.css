@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    padding: 5rem;
+    gap: 50px;
+    padding-right: 100px;
+}
+
+
+.container > img{
+    border-radius: 50%;
+    height: 100%;
+    grid-column: 1/2;
+    grid-row: 1/1;
+    float: right;
+}
+
+/*.socials{
+    display: flex;
+    float: left;
+}*/
+.description {
+    grid-column: 2/2;
+    grid-row: 1/2;
+    /*margin-right: 50px;*/
+}
+
+
+.socials > li{
+    list-style-type: none;
+    display: inline-block;
+    grid-column: 1/2;
+    grid-row: 2/2;
+    /*padding-right: 10px;*/
+    margin-right: 20px;
+    
+}
+
+/*.container > .socials > li > a > .currentColor :hover::after{
+    fill: black;
+}*/
+
+

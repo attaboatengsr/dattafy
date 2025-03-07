@@ -1,0 +1,16 @@
+
+.nav-list{
+  display: flex;
+  float: right;
+}
+
+.nav-list > li {
+  /*text-decoration: none;*/
+  list-style-type: none;
+  padding: 1rem;
+}
+
+.nav-list > li > a{
+  display: inline-block;
+  text-decoration: none;
+}
