@@ -1,3 +1,15 @@
-p{
-    padding: 5rem;
+h1{
+    padding: 10rem;
+}
+
+.container{
+    display: grid;
+   /* padding: 5rem;
+    gap: 50px;
+    padding-right: 100px;*/
+}
+
+.container > img{
+    height: 80px;
+    width: 80px;
 }
