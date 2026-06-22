@@ -1,12 +1,13 @@
 import { Routes } from '@angular/router';
-import { BioComponent } from './bio/bio.component';
-import { BlogComponent } from './blog/blog.component';
-import { ProjectsComponent } from './projects/projects.component';
+import { BioComponent } from './components/bio/bio.component';
+import { BlogComponent } from './components/blog/blog.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 export const routes: Routes = [
     
-    {path:'', component: BioComponent},
-    {path:'blog', component: BlogComponent},
-    {path:'projects', component: ProjectsComponent}
+    { path: '', redirectTo: 'about', pathMatch: 'full' },
+    {path:'about', component: BioComponent},
+    // {path:'blog', component: BlogComponent},
+     {path:'projects', component: ProjectsComponent}
 
 ];

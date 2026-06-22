@@ -1,11 +1,11 @@
-
+/* 
 .nav-list{
     display: flex;
     float: right;
   }
   
   .nav-list > li {
-    /*text-decoration: none;*/
+    
     list-style-type: none;
     padding: 1rem;
   }
@@ -21,4 +21,4 @@
     text-decoration: none;
     color: white;
     background-color: black;
-  }
+  } */
